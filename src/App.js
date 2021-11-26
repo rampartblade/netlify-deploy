@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import { useDispatch /*untuk melempar action */, useSelector /*mengambil state dari sebuah store */ } from 'react-redux'
 import './App.css';
-import {increment, decrement, setCounter} from'./store/action'
+import {increment} from'./store/action'
 
 function App() {
   const state = useSelector((state) => state) // nama yang dalam kurung bisa apa saja
